@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500,600,700&display=swap');
+body{
+  font-family: 'Oswald', sans-serif;
+}
+.page-enter-active, .page-leave-active {
+  transition: opacity .2s
+}
+.page-enter, .page-leave-active {
+  opacity: 0
+}
